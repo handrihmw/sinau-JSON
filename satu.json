@@ -1,0 +1,14 @@
+{
+    "nama"   : "Handri",
+    "usia"   : 23,
+    "nip"    : "180972",
+    "resign" : true,
+    "hobby"  : [
+                    "tidur",
+                    "makan"
+                ],
+    "atasan": {
+        "atasan1" : "Gugun",
+        "atasan2" : "Fanira"
+    }
+}

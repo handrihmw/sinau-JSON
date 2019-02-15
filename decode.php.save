@@ -1,0 +1,9 @@
+<?php
+ 
+// $data = file_get_contents('satu.json');
+$data = file_get_contents('http://www.freenom.link/en/index.html?lang=en'); 
+$user = json_decode($data, true);
+
+var_dump($user);
+echo $user[0]["atasan"]["atasan1"];
+?>
